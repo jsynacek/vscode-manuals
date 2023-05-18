@@ -1,0 +1,4 @@
+**/*.ts
+**/tsconfig.json
+.vscode/
+node_modules/

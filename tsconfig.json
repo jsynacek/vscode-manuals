@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "CommonJS",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "outDir": "./out/"
+    },
+    "files": [
+        "./src/extension.ts"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "manuals",
+    "description": "manuals",
+    "version": "0.1.2",
+    "author": {
+        "name": "Jan Synáček",
+        "email": "jan.synacek@posteo.org",
+        "url": "https://github.com/jsynacek/vscode-manuals"
+    },
+    "repository": "https://github.com/jsynacek/vscode-manuals",
+    "engines": {
+        "vscode": "^1.78.0"
+    },
+    "main": "out/extension.js",
+    "activationEvents": [],
+    "contributes": {
+        "commands": [
+            {
+                "command": "manuals.man",
+                "title": "Manuals: Show Manual"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run build",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "20.1.2",
+        "@types/vscode": "^1.78.0",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "@vscode/vsce": "^2.19.0"
+    }
+}
